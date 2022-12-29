@@ -1,0 +1,132 @@
+.gpt3__footer {
+    align-items: center;
+    background-color: var(--color-footer);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gpt3__footer-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+.gpt3__footer-heading h1 {
+    font-family: var(--font-family);
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+.gpt3__footer-btn {
+    align-items: center;
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.gpt3__footer-btn  p {
+    box-sizing: border-box;
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    word-spacing: 2px;
+}
+
+.gpt3__footer-links {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+}
+
+.gpt3__footer-links div {
+    margin: 1rem;
+    width: 250px;
+}
+
+
+.gpt3__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+.gpt3__footer-links_logo img {
+    height:30px;
+    margin-bottom: 1rem;
+    width: 118px;
+}
+.gpt3__footer-links_logo p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 22px;
+}
+.gpt3__footer-links_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.gpt3__footer-links_div h4 {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 1rem;
+}
+.gpt3__footer-links_div p {
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 22px;
+    margin:0.5rem 0;
+}
+
+.gpt3__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.gpt3__footer-copyright p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .gpt3__footer-links div {
+        margin: 1rem 0;
+    }
+    .gpt3__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gpt3__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
